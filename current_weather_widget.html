@@ -157,7 +157,7 @@
         
         const render = () => {
             if (!weatherData || !weatherData.current_weather) {
-                widgetEl.innerHTML = '<div class="weather-item" style="text-align: center;">No weather data available. Ask ChatGPT to get the weather for a location!</div>';
+                widgetEl.innerHTML = '<div class="weather-item" style="text-align: center;">Waiting for weather...</div>';
                 return;
             }
             
