@@ -226,7 +226,7 @@ Contributions are welcome! Feel free to:
 
 ## License
 
-This project is provided as-is for demonstration purposes.
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
