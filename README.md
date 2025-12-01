@@ -40,7 +40,7 @@ The app consists of two main components:
 
 - Python 3.12 or higher
 - [uv](https://docs.astral.sh/uv/) - Fast Python package installer
-- [Azure Functions Core Tools](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local)
+- [Azure Functions Core Tools](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local) v4.5.0 or higher
 - [Azure Developer CLI (azd)](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd)
 - ChatGPT account with [Developer Mode enabled](https://platform.openai.com/docs/guides/developer-mode)
 
@@ -85,7 +85,7 @@ During development, use [dev tunnels](https://learn.microsoft.com/en-us/azure/de
 devtunnel user login
 
 # Create a tunnel and host on port 8000
-devtunnel host -p 8000 --allow-anonymous
+devtunnel host -p 7071 --allow-anonymous
 ```
 
 The command will output a public HTTPS URL (e.g., `https://<tunnel-id>.devtunnels.ms`). Use this URL with the `/mcp` path when connecting to ChatGPT.
