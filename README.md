@@ -2,7 +2,7 @@
 
 A ChatGPT app that provides current weather information with an interactive widget, built using the [OpenAI Apps SDK](https://developers.openai.com/apps-sdk) and deployed to Azure Functions.
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](media/screenshot.png)
 
 ## Overview
 
