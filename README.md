@@ -2,6 +2,8 @@
 
 A ChatGPT app that provides current weather information with an interactive widget, built using the [OpenAI Apps SDK](https://developers.openai.com/apps-sdk) and deployed to Azure Functions.
 
+![Weather App Screenshot](screenshot.png)
+
 ## Overview
 
 This app demonstrates how to build a ChatGPT app using the Model Context Protocol (MCP) and the FastMCP Python framework. It fetches real-time weather data from the [Open-Meteo API](https://open-meteo.com/) and displays it in an interactive HTML widget directly within ChatGPT conversations.
